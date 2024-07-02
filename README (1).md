@@ -1,16 +1,6 @@
 # metodosordenacaoGB
 Análise Comparativa dos Métodos de Ordenação
 
-# Tabela Media
-| Tamanho do Array (n) | Bubble Sort          | Insertion Sort       | Selection Sort       | Heap Sort            | Shell Sort           | Merge Sort           | Quick Sort           |
-|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-| 128                  | 54265.0 ns           | 46052.5 ns           | 55150.0 ns           | 15627.5 ns           | 36429.8 ns           | 23397.5 ns           | 13007.5 ns           |
-| 256                  | 71029.9 ns           | 43917.5 ns           | 71549.9 ns           | 17215.0 ns           | 32722.4 ns           | 57067.5 ns           | 58705.0 ns           |
-| 512                  | 69549.9 ns           | 66324.9 ns           | 188704.9 ns          | 27782.7 ns           | 38782.3 ns           | 48952.5 ns           | 6965.0 ns            |
-| 1024                 | 293599.9 ns          | 134294.8 ns          | 818094.9 ns          | 35400.1 ns           | 25782.4 ns           | 54252.4 ns           | 16534.9 ns           |
-| 2048                 | 1085082.5 ns         | 218364.8 ns          | 2838477.5 ns         | 115012.5 ns          | 54955.0 ns           | 131244.8 ns          | 37860.1 ns           |
-| 4096                 | 3789062.4 ns         | 1079680.0 ns         | 10987182.5 ns        | 209829.6 ns          | 132024.9 ns          | 213497.5 ns          | 109275.2 ns          |
-| 65536                | 1795000007.5 ns      |                      |                      |                      |                      |                      |                      |
 
 # Array Ordenado em Ordem Crescente, Sem Valores Repetidos
 
