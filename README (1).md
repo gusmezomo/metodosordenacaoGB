@@ -13,6 +13,7 @@ Análise Comparativa dos Métodos de Ordenação
 | 2048                 | 640899.8 ns | 7520.0 ns      | 3413400.1 ns   | 132850.0 ns| 19820.1 ns | 102589.9 ns| 20370.4 ns |
 | 4096                 | 2691679.7 ns| 4120.2 ns      | 1.37695198E7 ns| 198680.0 ns| 40789.6 ns | 178889.9 ns| 50560.8 ns |
 | 65536                | 5.2167673E8 ns | 62670.0 ns            | 3.43067931E9 ns           |  3096050.3 ns         |  776840.1 ns         |  3606110.1 ns          | 964349.7 ns          |
+| media em segundos             | 7,50 | 0,0016    | 4,92          | 5,05      | 1,35        | 5,71         | 1,62         |
 
 # Array Ordenado em Ordem Decrescente, Sem Valores Repetidos
 
@@ -25,6 +26,7 @@ Análise Comparativa dos Métodos de Ordenação
 | 2048                 | 1008660.1 ns| 496600.3 ns    | 3359360.0 ns   | 113320.0 ns| 22810.1 ns | 121899.8 ns| 38929.9 ns |
 | 4096                 | 4024039.9 ns| 2211050.0 ns   | 1.32781402E7 ns| 203880.4 ns| 58029.8 ns | 171919.7 ns| 78699.9 ns |
 | 65536                | 1.05068126E9 ns  |  3.42874605E9 ns            |  3190090.1 ns      |   1061870.2 ns                  |   5.0246461E8 ns                  |  3994529.7 ns                    |   1834990.1 ns
+| media em segundos             | 1,50 | 4,88    | 2,54        | 2,13     | 7,18      | 6,43        | 2,96         |
 
 # Array Aleatório Sem Valores Repetidos
 
@@ -37,6 +39,7 @@ Análise Comparativa dos Métodos de Ordenação
 | 2048                 | 980949.9 ns | 221599.7 ns    | 2214139.9 ns   | 91050.1 ns| 74150.1 ns | 125819.7 ns| 32560.3 ns |
 | 4096                 | 3353150.0 ns| 761960.0 ns    | 8032950.0 ns   | 177390.0 ns| 158560.1 ns| 231979.9 ns| 119139.9 ns|
 | 65536                | 2.10047191E9 ns  | 1.5658188E8 ns  | 2.1234675596E9 ns  | 3867469.8 ns | 4081220.8 ns | 4822550.0 ns  |2931419.9 ns    | 
+| media em segundos             | 30,0 | 0,022    | 30,5       | 5,9     | 6,45      | 7,62        | 4,5         |
 
 # Array Aleatório Com Valores Repetidos
 
@@ -49,3 +52,4 @@ Análise Comparativa dos Métodos de Ordenação
 | 2048                 | 1705020.2 ns| 357739.2 ns    | 3566530.1 ns   | 123830.0 ns| 123840.0 ns| 177670.2 ns| 59380.4 ns |
 | 4096                 | 5067380.1 ns| 1300569.9 ns   | 1.32424495E7 ns| 257369.9 ns| 273720.2 ns| 273200.4 ns| 187700.0 ns|
 | 65536                | 3.50717013E9 ns | 2.5083247E8 ns  | 3.4424180199E9 ns       |  5064019.9 ns     |  1.12098397E7 ns      | 6260580.2 ns         | 3865999.6 ns             |
+| media em segundos             | 5,01 | 3,58    |  4,45      | 7,87   | 1,67     | 9,90     |  5,99         |
